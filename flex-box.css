@@ -1,0 +1,40 @@
+article{
+    
+    width: 100px;
+    height: 100px;
+    background-color: rgb(116, 77, 116);
+    margin: 20px;
+    /* magin = es el margen que separa los elementos entre si */
+    
+}
+
+#articulo{
+    /* <!-- display: inline = se ajusta al tamaño del contenido --> */
+    /* <!-- display: block = se ajusta al tamaño de la pantalla o las especificaciones--> */
+    /* display: inline; */
+    padding: 30px;
+    /* padding interior que separa el contenido   */
+    border: 10px black solid
+    /* boder = bordes de la caja */
+}
+#articulo1 {
+    padding: 20px;
+    border: 10px red solid;
+    /* position: relative; */
+    /* relative = para mover el contenedor en la pantalla*/ 
+    /* left: 200px; */
+    /* se acomoda en la pantalla de acuerdo a lo que uno necesite */
+    /* bottom: 180px; hacia arriba */
+}
+
+section {
+display: flex;
+background-color: yellow;
+/* display flex = para acomodar en el mismo contenedor los contenedores, para manipular las distancias */
+}
+article:hover{
+    /*psudoclase para alterar el comportamiento de los elementos */
+    /* hover = cuando el mause este encima de los elementos */
+    background-color: black;
+
+}
