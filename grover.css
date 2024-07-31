@@ -1,0 +1,27 @@
+body {
+    width: 1440;
+    /* tamaño de la pantalla */
+}
+header{
+    background-color: aqua;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: space-evenly = separar los elementos entre si */
+}
+div{
+    background-color: rgb(232, 142, 142);
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+}
+
+nav ul{
+    /* selectores en cascada => elimos la etiqueta dentro de la etiqueta se puede hacer con varias etiquetas */
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+
+}

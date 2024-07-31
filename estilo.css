@@ -10,6 +10,7 @@
         /* estilo para un id  */
         /* los id no se repiten entre etiquetas */
         font-size: 20px;
+        /* font-size = tamaño de la letra */
         color: red;
     }
     .universal{
