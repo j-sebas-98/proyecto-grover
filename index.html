@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="estilo.css">
+    <!-- link = para llamar archivos a la pagina en este caso los estilos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
 </head>
-<body>
+<style>
+    /* style = agregamos todo el estilo de la pagina desde esta etiqueta */
+    body{
+        background-color: black;
+    }
+    nav{
+        background-color: aqua;
+    }
+    
+    #home {
+        /* con # se llama el id */
+        /* estilo para un id  */
+        /* los id no se repiten entre etiquetas */
+        font-size: 20px;
+        color: red;
+    }
+    .universal{
+        /* con . se llama la class */
+        /* estilo para una class  */
+        /* las class se repiten entre etiquetas para compartir estilos, se pueden crear muchas clases dentro de la misma clase para los estilos*/
+        font-size: 30px;
+        color: yellow;
+    }
+</style>
+<body style="background-color: red;">
+    <!-- style = es para darle estilo a la etiqueta desde la misma etiqueta se llama in-line  -->
     <img id="logo"src="" class="imagenlogo color" alt="logo grover">
     <!-- atributo id = es para darle un nombre unico a esta etiqueta para el css -->
     <!-- atributo class = las class son para darle a diferentes etiquetas el mismo estilo -->
-     <!-- los id no se repiten entre etiquetas -->
-     <!-- las class se repiten entre etiquetas para compartir estilos, se pueden crear muchas clases dentro de la misma clase para los estilos -->
-    <nav id="barranavegacion">
+    <nav id="barranavegacion" style="height: 400px; width: 400px;">
         <span>grover</span>
         <!-- nav =>  barra de navegacion -->
          <ul>
             <!-- ul = lista con biñetas-->
-            <li><a href="home.html">home</a></li>
-            <li><a href="menu.html">menu</a></li>
-            <li><a href="service.html">service</a></li>
-            <li><a href="shop.html">shop</a></li>
+            <li><a href="home.html" id="home">home</a></li>
+            <li><a href="menu.html" class="universal">menu</a></li>
+            <li><a href="service.html"  class="universal">service</a></li>
+            <li><a href="shop.html"  class="universal">shop</a></li>
             <!-- li => elementos de la lista -->
          </ul>
          <!-- <ol>

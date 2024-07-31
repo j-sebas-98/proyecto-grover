@@ -1,8 +1,21 @@
-/* selector de id  */
-#logo 
-/* con # se llama el id */
-#barranavegacion
-/* selector de class */
-.imagenlogo
-/* con . se llama la class */
-.color
+    body{
+        background-color: black;
+    }
+    nav{
+        background-color: aqua;
+    }
+    
+    #home {
+        /* con # se llama el id */
+        /* estilo para un id  */
+        /* los id no se repiten entre etiquetas */
+        font-size: 20px;
+        color: red;
+    }
+    .universal{
+        /* con . se llama la class */
+        /* estilo para una class  */
+        /* las class se repiten entre etiquetas para compartir estilos, se pueden crear muchas clases dentro de la misma clase para los estilos*/
+        font-size: 30px;
+        color: yellow;
+    }

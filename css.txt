@@ -1,0 +1,3 @@
+estilos in-line = se agrega el estilo a la etiqueta de html en el documento 
+estilos in-doument = se agrega todo el estilo de la pagina desde la etiqueta style
+estilos in-file = se agrega todo el estilo desde un archivo exterior que se llama en el archivo html
